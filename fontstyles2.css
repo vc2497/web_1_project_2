@@ -1,0 +1,110 @@
+/* Blanch Font Faces */
+
+@font-face {
+    font-family: 'blanchcaps';
+    src: url('fonts/blanch_caps.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'blanchcapsinline';
+    src: url('fonts/blanch_caps_inline.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'blanchcapslight';
+    src: url('fonts/blanch_caps_light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'blanchcond';
+    src: url('fonts/blanch_condensed.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'blanchcondinline';
+    src: url('fonts/blanch_condensed_inline.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'blanchcondlight';
+    src: url('fonts/blanch_condensed_light.ttf') format('truetype');
+}
+
+/* Font's Museo - Weights in 300, 500, & 700 */
+
+/* Nav Font's */
+ul {
+    font-family: 'museo', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(124, 124, 124);
+}
+/*.LoginText {
+    font-family: 'blanchcondlight', sans-serif;
+    font-size: 12px;
+    color:#C4C4C4;
+}*/
+
+/* Main Photo Font's */
+.MainImageText {
+    font-family: 'museo', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+.SubheadText {
+    font-family: 'museo', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+/* SUB FOOTER */
+.TweetBar li {
+    font-family: 'museo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+.ViewMoreButton {
+    font-family: 'museo', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+}
+
+/* FOOTER STYLES */
+.footer-columna p {
+    font-family: 'museo', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(124, 124, 124);
+}
+.footer-columna h3 {
+    font-family: 'museo', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+}
+
+.footer-columnb h3 {
+    font-family: 'museo', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+}
+.footer-columnc h3, h4 {
+    font-family: 'museo', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+}
+
+.footer-columnc p {
+    font-family: 'museo', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+.ColumnSection h5 {
+    font-family: 'museo', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}

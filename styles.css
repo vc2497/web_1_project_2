@@ -1,0 +1,247 @@
+html, body {
+    height: 100%;
+}
+
+body {
+        background: url('assets/fabric_plaid.png');
+        background-repeat: repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+/* MAIN NAVIGATION ITEMS */
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    background:url('assets/fabric_plaid.png');
+    display: flex;
+    padding: 15px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    display: flex;
+    padding: 10px 20px 10px 30px;
+    color:rgb(124, 124, 124);
+}
+
+@media screen and (min-width: 150px) {
+   nav ul {
+        display: flex;      
+   }
+}
+
+/* FB AND TWITTER ICONS */
+
+ol {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: flex-end;
+}
+ol img {
+    width: 25px;
+    margin: 5px;
+    position: relative;
+    bottom: 80px;
+}
+
+ol li:nth-child(3) {
+
+    position: relative;
+    right: 140px;
+    bottom: 40px;
+
+}
+
+
+/* CENTER IMAGE ITEMS */
+.MainImage {
+    width: 100%;
+    margin: 0 auto;
+}
+.Image {
+    display: flex;
+    justify-content: center;
+}
+.Image img {
+    width: 850px;
+    height: 480px;
+    border: solid 10px white;
+}
+.MainImageText {
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+}
+.MainImageText p {
+    background: rgba(0, 0, 0, 0.3);
+    text-align: right;
+    color: white;
+    padding: 15px;
+    width: 820px;
+    position: relative;
+    bottom: 125px;
+}
+.Arrows{
+    display: flex;
+    justify-content: center;
+}
+.Arrows img {
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 400px 0 400px;
+    position: relative;
+    bottom: 230px;
+}
+/* SUBHEAD INFO */
+.SubheadText {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+}
+
+/* 12 IMAGES FLEX ITEMS */
+.GroupImages {
+    width: 100%;
+    margin: 0 auto;
+}
+.Group {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.Group img {
+    width: 400px;
+    height: 350px;
+    padding: 15px;
+    margin: 10px;
+}
+/* VIEW MORE BUTTON AND TWITTER FOOTER ITEMS */
+.ViewMoreButton {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  
+}
+.ViewMoreButton p {
+
+    background-image: url('assets/az_subtle.png');
+    background-color:  #B4B4AC;
+    background-blend-mode: multiply;
+    color: white;
+    padding: 15px 80px 15px 80px;
+}
+
+.TweetBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.TweetBar ul {
+    margin: 0;
+    background: #666666;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+}
+.TweetBar li {
+    text-decoration: none;
+    padding: 20px 10px 10px 10px; 
+    color:white;
+
+}
+.TweetBar img {
+    width: 30px;
+    max-height: 25px;
+    height: auto;
+}
+
+/* MAIN FOOTER */
+footer {
+    width: 100%;
+}
+
+.footer-container {
+    background: #B4B4AC;
+    width: 100%;
+}
+
+.footer-main {
+    width: 95%;
+    margin: auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-main .footer-columna {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 10px 10px;
+}
+
+.footer-main .footer-columnc {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 10px 10px;
+}
+
+.footer-columna p {
+    padding: 5px 10px 5px 10px;
+}
+
+
+.footer-main .footer-columnb {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px 10px 70px;
+}
+
+.footer-columna img {
+    width: 80px;
+    height: 50px;
+}
+
+.footer-columnb img {
+    width: 120px;
+    height: 70px;
+}
+
+.ColumnSection {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ColumnSection h3 {
+    margin:  0 0 -20px 0;
+}
+.ColumnSection h5 {
+    color: white;
+}
+
+.ColumnSection h4 {
+    margin: -10px 0 0 0 ;
+    background: white;
+    padding: 5px 250px 5px 5px;
+}
+
+.ColumnSection img {
+    width: 20px;
+    height: 20px;
+}
