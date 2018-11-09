@@ -1,0 +1,299 @@
+html, body {
+    height: 100%;
+
+}
+
+body {
+        background: url('assets/fabric_plaid.png');
+        background-repeat: repeat;
+        background-size: cover;
+        height: 100vh;
+        margin: 20px;
+
+    }
+/* MAIN NAVIGATION ITEMS */
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 20px;
+}
+nav {
+    background:url('assets/fabric_plaid.png');
+    display: flex;
+    padding: 15px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    display: flex;
+    padding: 10px 20px 10px 30px;
+    color:rgb(124, 124, 124);
+}
+
+@media screen and (min-width: 150px) {
+   nav ul {
+        display: flex;      
+   }
+}
+/* TWEET AND FB ICONS */
+
+ol {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: flex-end;
+}
+ol img {
+    width: 25px;
+    margin: 5px;
+    position: relative;
+    bottom: 100px;
+}
+
+ol li:nth-child(3) {
+    position: relative;
+    right: 140px;
+    bottom: 60px;
+
+}
+
+/* CENTER IMAGE ITEMS */
+
+.MainContent {
+    width: 100%;
+    margin: 0 40px -600px 250px;
+
+
+}
+
+.MainImage {
+    width: 98%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+.Image {
+    width: 100%;
+    padding: 0 80px 10px 0;
+}
+.Image img {
+    width: 850px;
+    height: 480px;
+    border: solid 10px white;
+
+}
+.MainImageText {
+   width: 100%;
+   margin: 0 auto;
+   justify-content: left;
+   padding: 20px;
+}
+.MainImageText p {
+    background: rgba(0, 0, 0, 0.3);
+    text-align: right;
+    color: white;
+    padding: 10px;
+    width: 830px;
+    position: relative;
+    bottom: 165px;
+    left: 10px;
+}
+.Arrows{
+    display: flex;
+    justify-content: left;
+}
+.Arrows img {
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 399px 0 399px;
+    position: relative;
+    bottom: 350px;
+    right: 393px;
+
+}
+
+/* STUDENT BIO ITEMS */
+
+.StudentBio {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    left: 1240px;
+}
+
+.MyImage img{
+    width: 200px; 
+    height: 200px;
+    border: solid 10px white;
+}
+.Text {
+    border: solid 10px white;
+    text-align: right;
+    height: 200px;
+    background: white;
+}
+
+.Text img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.Text2 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    left: 970px;
+    bottom: 400px;
+    border: solid 10px white;
+    background: white;
+    padding: 10px 30px 10px 20px;
+}
+
+/* THREE IMAGES SECTION */
+.ThreeImages {
+ position: relative;
+ bottom: 650px;
+ right: 10px;
+ margin: 20px;
+    
+}
+
+.ThreeImages img {
+    width: 268px;
+    height: 220px;
+    margin: 10px;
+    border: solid 3px white;
+}
+
+/* SUBCONTENT SECTION*/
+.SubContent {
+    position: relative;
+    margin: 0 0 40px 0;
+    left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.EightImages img {
+    margin: 20px;
+    width: 400px;
+    height: 325px;
+}
+
+/* TWITTER SUBFOOTER */
+
+.TweetBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.TweetBar ul {
+    margin: 0;
+    background: #666666;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+}
+.TweetBar li {
+    text-decoration: none;
+    padding: 20px 10px 10px 10px; 
+    color:white;
+
+}
+.TweetBar img {
+    width: 30px;
+    max-height: 25px;
+    height: auto;
+}
+
+
+/* MAIN FOOTER */
+footer {
+    width: 100%;
+}
+
+.footer-container {
+    background: #B4B4AC;
+    width: 100%;
+    position: relative;
+
+}
+
+.footer-main {
+    width: 95%;
+    margin: auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-main .footer-columna {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 10px 10px;
+}
+
+.footer-main .footer-columnc {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 10px 10px;
+}
+
+.footer-columna p {
+    padding: 5px 10px 5px 10px;
+}
+
+
+.footer-main .footer-columnb {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px 10px 70px;
+}
+
+.footer-columna img {
+    width: 80px;
+    height: 50px;
+}
+
+.footer-columnb img {
+    width: 120px;
+    height: 70px;
+}
+
+.ColumnSection {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ColumnSection h3 {
+    margin:  0 0 -20px 0;
+}
+.ColumnSection h5 {
+    color: white;
+}
+
+.ColumnSection h4 {
+    margin: -10px 0 0 0 ;
+    background: white;
+    padding: 5px 250px 5px 5px;
+}
+
+.ColumnSection img {
+    width: 20px;
+    height: 20px;
+}
+
